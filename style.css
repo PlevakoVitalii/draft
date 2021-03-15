@@ -65,12 +65,19 @@ a:-webkit-any-link {
   stroke: hsl(120, 29%, 50%);
 }
 
+.intro__button:hover,
+.intro__button:focus {
+  background-color: #e39128;
+  border: 2px solid #e39128;
+}
+
 .slider_link-left:hover {
   left: 3px;
 }
 .slider_link-right:hover {
   right: -3px;
 }
+
 .background {
   min-height: 100vh;
   height: 780px;
@@ -91,6 +98,77 @@ a:-webkit-any-link {
   width: 100%;
   z-index: 2;
 }
+
+.header__link,
+.header__search {
+  font-size: 23px;
+  line-height: 261%;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-left: 4px;
+}
+.header__button {
+  display: inline-block;
+  width: 125px;
+  height: 50px;
+  padding: 2px 23px;
+  background-color: transparent;
+  text-transform: none;
+  border-radius: 5px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__logo-name h1 {
+  max-width: 155px;
+  margin: 0 auto;
+  padding-left: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 187%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 240px;
+}
+
+.header__logo-link {
+  text-decoration: none;
+}
+
+.intro__title {
+  max-width: 199px;
+  font-size: 48px;
+  line-height: 150%;
+  color: #cd6326;
+  margin-bottom: 48px;
+  padding-top: 1px;
+  letter-spacing: 2px;
+}
+
+.intro__button {
+  width: 160px;
+  height: 60px;
+  padding: 16px 42px 17px 42px;
+  background-color: #cd6326;
+  border-radius: 5px;
+  border: 2px solid #cd6326;
+  font-family: "Roboto";
+  font-size: 23px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -99,6 +177,25 @@ a:-webkit-any-link {
 .content__wrapper {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.articles__title {
+  position: absolute;
+  font-size: 48px;
+  line-height: 150%;
+  text-align: center;
+  color: #333333;
+  padding-top: 120px;
+  margin-bottom: 20px;
+}
+
+.articles__title {
+  position: absolute;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #666666;
+  margin-bottom: 119px;
 }
 
 .articles__cards {
@@ -204,6 +301,13 @@ input[type="submit"] {
   background-color: #181617;
   background: url(assets/img/footer-bp.jpg) no-repeat centrer;
   background-size: cover;
+}
+
+.footer__logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .footer__wrapper-grid {

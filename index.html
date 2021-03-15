@@ -1,65 +1,134 @@
-<head> </head>
-
 <body>
   <!-- Header start-->
   <div class="background">
-    <!-- survival end-->
-    <!-- content start-->
-    <div class="page__wrapper">
-      <section class="articles" style="margin-bottom: 236px;">
-        <div class="content__wrapper">
-          <div class="articles__name"></div>
-          <div class="articles__cards">
-            <a href="#!" class="slider_link-left"></a>
-            <figure class="articles__card">
-              <img
-                src="./assets/img/deer.jpg"
-                alt="Deer"
-                class="articles__card-pic"
-              />
-              <h4 class="articles__card-title deer-title">Deer</h4>
-              <figcaption class="articles__card-caption deer-caption">
-                Naturalist investigation
-              </figcaption>
-            </figure>
-            <figure class="articles__card">
-              <img
-                src="./assets/img/deer.jpg"
-                alt="Deer"
-                class="articles__card-pic"
-              />
-              <h4 class="articles__card-title deer-title">Deer</h4>
-              <figcaption class="articles__card-caption deer-caption">
-                Naturalist investigation
-              </figcaption>
-            </figure>
-            <figure class="articles__card">
-              <img
-                src="./assets/img/deer.jpg"
-                alt="Deer"
-                class="articles__card-pic"
-              />
-              <h4 class="articles__card-title deer-title">Deer</h4>
-              <figcaption class="articles__card-caption deer-caption">
-                Naturalist investigation
-              </figcaption>
-            </figure>
-
-            <a href="#!" class="slider_link-right">
-              <svg
-                width="30"
-                height="39"
-                viewBox="0 0 30 39"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              ></svg>
-            </a>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__wrapper">
+          <div class="logo-container">
+            <div class="logo-pic">
+              <a href="#!" class="header__logo-link">
+                <svg
+                  width="69"
+                  height="60"
+                  viewBox="0 0 69 60"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="header__logo-pic"
+                ></svg>
+              </a>
+            </div>
+            <div class="header__logo-name">
+              <h1>wildlife</h1>
+            </div>
           </div>
+          <nav class="header__nav" aria-label="site menu">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#!" class="header__link">blog</a>
+              </li>
+              <li class="header__item">
+                <a href="#!" class="header__link">Contact</a>
+              </li>
+              <li class="header__item header__search">
+                <svg
+                  class="header__search-ico"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="..." fill="white"></path>
+                </svg>
+              </li>
+              <li class="header__item">
+                <button
+                  class="header__button header__link"
+                  input
+                  type="submit"
+                  value="Sing-in"
+                >
+                  Sing in
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Header end-->
+    <!-- survival start-->
+    <main class="main">
+      <section class="intro">
+        <div class="wrapper">
+          <h2 class="intro__title">Survival</h2>
+          <p class="intro__subtitle"></p>
+          <button class="intro__button" input type="submit" value="donate">
+            donate
+          </button>
         </div>
       </section>
-    </div>
+    </main>
+  </div>
+  <!-- survival end-->
+  <!-- content start-->
+  <div class="page__wrapper">
+    <section class="articles" style="margin-bottom: 236px;">
+      <div class="content__wrapper">
+        <div class="articles__name">
+          <h2 class="articles__title">Latest articles</h2>
+          <h3 class="articles__subtitle">Breaking news from the wild</h3>
+        </div>
+        <div class="articles__cards">
+          <a href="#!" class="slider_link-left"></a>
+          <figure class="articles__card">
+            <img
+              src="./assets/img/deer.jpg"
+              alt="Deer"
+              class="articles__card-pic"
+            />
+            <h4 class="articles__card-title deer-title">Deer</h4>
+            <figcaption class="articles__card-caption deer-caption">
+              Naturalist investigation
+            </figcaption>
+          </figure>
+          <figure class="articles__card">
+            <img
+              src="./assets/img/deer.jpg"
+              alt="Deer"
+              class="articles__card-pic"
+            />
+            <h4 class="articles__card-title deer-title">Deer</h4>
+            <figcaption class="articles__card-caption deer-caption">
+              Naturalist investigation
+            </figcaption>
+          </figure>
+          <figure class="articles__card">
+            <img
+              src="./assets/img/deer.jpg"
+              alt="Deer"
+              class="articles__card-pic"
+            />
+            <h4 class="articles__card-title deer-title">Deer</h4>
+            <figcaption class="articles__card-caption deer-caption">
+              Naturalist investigation
+            </figcaption>
+          </figure>
+
+          <a href="#!" class="slider_link-right">
+            <svg
+              width="30"
+              height="39"
+              viewBox="0 0 30 39"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            ></svg>
+          </a>
+        </div>
+      </div>
+    </section>
     <!-- content end-->
-    <!-- get notified end-->
+    <!-- get notified start-->
     <section class="get-notified" style="margin: 239px;">
       <div class="get-notified__title-wrap">
         <div class="get-notified__wrapper">
@@ -90,16 +159,44 @@
   <footer class="footer">
     <div class="wrapper">
       <div class="footer__wrapper-grid">
-        <div class="footer__logo-container"></div>
+        <div class="footer__logo-container">
+          <div class="logo-pic">
+            <a href="#!" class="header__logo-link">
+              <svg
+                width="69"
+                height="60"
+                viewBox="0 0 69 60"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="header__logo-pic"
+              ></svg>
+            </a>
+          </div>
+          <div class="header__logo-name">
+            <h2>wildlife</h2>
+          </div>
+        </div>
         <nav class="footer__nav" aria-label="optional menu">
-          <ul class="footer__list"></ul>
+          <ul class="footer__list">
+            <li class="footer__item"></li>
+            <li class="footer__item"></li>
+            <li class="footer__item"></li>
+          </ul>
         </nav>
-        <adress class="footer__contacts" aria-label="optional menu"></adress>
+        <adress class="footer__contacts" aria-label="optional menu">
+          <ul class="footer__contacts-links">
+            <li class="footer__contacts-link facebook"></li>
+            <li class="footer__contacts-link instagram"></li>
+            <li class="footer__contacts-link pinterest"></li>
+            <li class="footer__contacts-link telegram"></li>
+          </ul>
+        </adress>
       </div>
     </div>
   </footer>
+  <!-- footer end-->
 </body>
-<position:relative></position:relative>
+
 <!--
 <a href="#!" class="slider_link-left"></a> НУЖНО BUTTON
 position:relative; top:2px или left:-3px-МОЖНО ДВИГАТЬ ЕЛЕМЕНТЫ
