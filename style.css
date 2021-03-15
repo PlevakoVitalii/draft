@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+::selection {
+  background: #b3d4fc;
+  box-sizing: none;
+}
+
+section {
+  display: block;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.content__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.articles__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articles__card {
+  position: relative;
+}
+
+.articles__card-title {
+  position: absolute;
+  font-size: 22px;
+  line-height: 164%;
+  color: #ffffff(--font-light);
+}
+
+.articles__card-pic {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  transition: 0.2s all;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.deer-title {
+  bottom: 76px;
+  left: 128px;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.get-notified__title {
+  font-size: 27px;
+  line-height: 150%;
+  margin-bottom: 59px;
+  color: #333333;
+}
